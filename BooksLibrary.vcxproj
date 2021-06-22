@@ -139,7 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
     <ClCompile Include="BooksLibrary.cpp" />
+    <ClCompile Include="EBook.cpp" />
+    <ClCompile Include="FileMultimedia.cpp" />
+    <ClCompile Include="LibBook.cpp" />
+    <ClCompile Include="LibDisc.cpp" />
+    <ClCompile Include="LibFile.cpp" />
+    <ClCompile Include="LibItem.cpp" />
+    <ClCompile Include="Video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="EBook.h" />
+    <ClInclude Include="FileMultimedia.h" />
+    <ClInclude Include="LibBook.h" />
+    <ClInclude Include="LibDisc.h" />
+    <ClInclude Include="LibFile.h" />
+    <ClInclude Include="LibItem.h" />
+    <ClInclude Include="Video.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
