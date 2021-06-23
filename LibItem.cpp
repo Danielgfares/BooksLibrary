@@ -14,7 +14,6 @@ LibItem::LibItem(string _title, string _ISBN)
 }
 
 string LibItem::toString() {
-    /* return info of an item in the library */
     return "Title: " + this->getTitle() + " ISBN: " + this->getISBN() +  "\n";
 }
 
